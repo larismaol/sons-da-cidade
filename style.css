@@ -1,0 +1,236 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ffffff;
+    margin: 0;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #202020;
+    color: #b4b4b4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #ce9518;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+  
+nav li {
+    margin-right: 20px;
+}
+  
+nav a {
+    color: #bdbdbd;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+  
+nav a:hover {
+    background-color:#ce9418;
+    border-radius: 10px;
+    color: #333;
+}
+
+.banner{
+    background-image: url(imagens/fotoshow.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vw;
+    position: relative;
+}
+
+.banner h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+    z-index: 1;
+}
+
+  
+  /* Estilos para as seções */
+.sobre {
+    text-align: center;
+    margin: 40px;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey ;
+}
+  
+section p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+  
+section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul h3 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.programacao{
+    text-align: center;
+    margin: 40px;
+}
+
+.programacao__titulo{
+    text-align: center;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lista1 {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .lista2 {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .ingressos {
+    margin: 40px;
+    text-align: center;
+  }
+  
+  .localizacao{
+    margin: 40px;
+    text-align: center;
+  }
+
+
+  footer{
+    height: 180px;
+    background-color: #202020;
+  }
+
+  .contato{
+    padding: 40px;
+    color: white;
+
+  }
+
+  .novidades{
+    height: 180px;
+    background-image: url(imagens/ben-o-bro-wpU4veNGnHg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.596);
+    height: 15vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+ 
+
+  .novidades__botao{
+    display: inline-block;
+    background-color: #333;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+
+  }
+
+  .novidades__botao:hover{
+      background-color: #fff;
+      color: #333;
+  }
+
+  .novidades p{
+    font-size: 20px;
+    color: white;
+    
+  }
+  
+  /* Estilos para o botão */
+.botao {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .botao:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+  @media only screen and (max-width: 768px) {
+    nav {
+      display: none;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    .menu li {
+      margin: 0;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .banner h1{
+      font-size: 18px;
+      
+    }
+
+    .novidades{
+      height: 200px;
+    }
+
+    .contato{
+      padding: 20px;
+
+    }
+  }
